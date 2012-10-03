@@ -5,29 +5,28 @@ from gmusicapi.api import Api
 def my_view(request):
 	return {'project':'MyProject','string':'MyString'}
 
-@view_config(route_name='tab', renderer='mytemplatetest.mak')
+@view_config(route_name='tab', renderer='gmusicuser.mak')
 def testTabs(request):
 	return {'project':'HerpDerp', 'string':'HerpString'}
 
-@view_config(route_name='login', renderer = 'gmusic.mak')
+@view_config(route_name='uc', renderer='gmusicuser.mak')
+def uc(request):
+	return {'abc':'cba'}
+
+
+@view_config(route_name='login', renderer = 'gmusicuser.mak')
 def myview(request):
-	print "FUCK FUCK FUCK"
 	firstname = request.params['username']
 	lastname = request.params['password']
 	api = Api()
 	api.login(firstname,lastname)
 	idx = 0
 	library = api.get_all_songs()
-	for item in library:
-		if (idx < 5):
-			item["songURL"] = api.get_stream_url(item["id"])
-			idx+=1
-		else:
-			break
+	queue = [library[1]]
+	print (queue)
 #	api = login(firstname,lastname)
 #	library = getLib(api)
 #	print(library)
-	
 	return {'items':library}
 
 def login(username,password):

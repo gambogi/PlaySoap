@@ -7,7 +7,7 @@
       <input type="text" name="username"/>
     </div>
     <div>
-      <input type="text" name="password"/>
+      <input type="password" name="password"/>
     </div>
     <input type="submit" value="Submit"/>
   </form>
