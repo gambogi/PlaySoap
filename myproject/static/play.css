@@ -185,21 +185,33 @@ ul#toprightbarlist {
 	color: white;
 }
 
-#queue li {
+
+#queue {
+	width: 99%;
+	height: 120px;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+.queueitem {
+	width: 70px;
+	height: 90px;
 	list-style-type: none;
-	display:inline;
-	float: left;
 	padding: 10px 10px;
+	display:inline-block;
+	white-space: nowrap;
 }
 
 .songName {
 	width: 70px;
 	overflow: hidden;
+	display: block;
 }
 
 .songArtist {
 	width: 70px;
 	overflow: hidden;
+	display: block;
 }
 
 #leftControls {

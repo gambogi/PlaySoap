@@ -1,5 +1,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="static/play.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="static/java.js"></script>
 <body>
 	<div id="topGoogleBar">
 			<ul id="topleftbarlist">
@@ -8,7 +10,7 @@
 				<li>GS</li>
 			</ul>
 			<ul id="toprightbarlist">
-				<li>Username</li>
+				<li id="username">${username}</li>
 				<li>Logout</li>
 			</ul>
 	</div>
@@ -35,17 +37,15 @@
 	<div id="rightSongList">
 		<table id="song-headers">
 			<tr>
-				<td></td>
 				<th>NAME</th>
 				<th>ARTIST</th>
 				<th>ALBUM</th>
 			</tr>
-			%  for item in items:
-			<tr class="Songs">
-				<td><img src="static/play.png"/></td>
-				<td>${item["title"]}</td>
-				<td>${item["artist"]}</td>
-				<td>${item["album"]}</td>
+			%  for idx,item in enumerate(items):
+			<tr id=${idx} onClick="addToQueue(this)" class="Songs">		
+					<td>${item["title"]}</td>
+					<td>${item["artist"]}</td>
+					<td>${item["album"]}</td>
 			</tr>
 			%endfor
 		</table>
@@ -53,16 +53,6 @@
 		<div id="footer">
 			<div id="songqueue">
 				<ul id="queue">
-					<li class="queueitem">
-						<img src="http://images.grooveshark.com/static/albums/70_album.png" height="70px" width="70px">
-						<div class ="songName">AAAAAAAAAAAAAAA</div>
-						<div class ="songArtist">Artist</div>
-					</li>
-					<li class="queueitem">
-						<img src="http://images.grooveshark.com/static/albums/70_album.png" height="70px" width="70px">
-						<div class ="songName">Test</div>
-						<div class ="songArtist">Artist</div>
-					</li>
 				</ul>
 			</div>
 			<ul id="leftControls"</ul>

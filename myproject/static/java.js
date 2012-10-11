@@ -9,10 +9,10 @@ function loadQueue() {
         cache: false,
         dataType: "json",
         success: function(data) {
-			$('div.songQueueItems').empty('');
+			$('#queue').empty('');
 			for (i = 0; i < data.queue.length; i++) {
 				console.log(data.queue[0].title);
-				$('div.songQueueItems').append('<li class=\"queueitem\">\r\n\t\t\t\t\t\t<img src=\"http:\/\/images.grooveshark.com\/static\/albums\/70_album.png\" height=\"70px\" width=\"70px\">\r\n\t\t\t\t\t\t<div class =\"songName\">' + data.queue[i].title + '<\/div>\r\n\t\t\t\t\t\t<div class =\"songArtist\">' + data.queue[i].artist + '<\/div>\r\n\t\t\t\t\t<\/li>');
+				$('#queue').append('<li class=\"queueitem\">\r\n\t\t\t\t\t\t<img src=\"http:\/\/images.grooveshark.com\/static\/albums\/70_album.png\" height=\"70px\" width=\"70px\">\r\n\t\t\t\t\t\t<span class =\"songName\">' + data.queue[i].title + '<\/span>\r\n\t\t\t\t\t\t<span class =\"songArtist\">' + data.queue[i].artist + '<\/span>\r\n\t\t\t\t\t<\/li>');
 			}
 		}
 	});
