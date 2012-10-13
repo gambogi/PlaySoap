@@ -11,6 +11,7 @@
 			</ul>
 			<ul id="toprightbarlist">
 				<li id="username">${username}</li>
+				<li id="userNumber">${userNumber}</li>
 				<li>Logout</li>
 			</ul>
 	</div>
@@ -24,6 +25,7 @@
 			</ul>
 		<div class="clear"></div>
 	</div>
+	<div id="main">
 	<div id="leftList">
 		<ul id="leftListUL">
 			<li>Home</li>
@@ -50,6 +52,7 @@
 			%endfor
 		</table>
 		</div>
+	</div>
 		<div id="footer">
 			<div id="songqueue">
 				<ul id="queue">

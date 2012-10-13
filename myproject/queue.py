@@ -6,6 +6,8 @@ class Queue:
 	def getListItem(self, index):
 		return self.queueList[index]
 	def addListItem(self, item):
+		item["upvote"] = 0
+		item["downvote"] = 0
 		self.queueList.append(item)
 	def upvoteItem(self, index, amount):
 		pass

@@ -13,20 +13,20 @@ def my_view(request):
 def ajaxQueue(request):
 	matchdict = request.matchdict
 	id = (int (matchdict.get('id', None)))
-	queue.UserCenter.addListItem(userList[0].library[id])
-	print len(queue.UserCenter.queueList)
+	userNumber = (int (matchdict.get('userNumber', None)))
+	queue.UserCenter.addListItem(userList[userNumber].library[id])
 	return {"a":"a"}
 
 @view_config(route_name='returnQueue', renderer='json')
 def returnQueue(request):
-	queue.UserCenter.addListItem(userList[0].library[1])
 	jsonqueue = json.dumps(queue.UserCenter.queueList)
-	print (jsonqueue)
 	return {"queue":queue.UserCenter.queueList}
 
 @view_config(route_name='login', renderer = 'gmusicuser.mak')
 def myview(request):
 	firstname = request.params['username']
 	lastname = request.params['password']
-	userList.append(User(firstname,lastname))
-	return {'items':userList[0].library, 'username' : firstname}
+	tempuser = User(firstname,lastname)
+	userList.append(tempuser)
+	userNumber = userList.index(tempuser)
+	return {'items':userList[userNumber].library, 'username' : firstname, 'userNumber' : userNumber}
