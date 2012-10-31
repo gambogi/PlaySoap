@@ -17,6 +17,31 @@ def ajaxQueue(request):
 	queue.UserCenter.addListItem(userList[userNumber].library[id])
 	return {"a":"a"}
 
+@view_config(route_name='downvote', renderer='string')
+def downvote(request):
+	matchdict = request.matchdict
+	id = (int (matchdict.get('id', None)))
+	userNumber = (int (matchdict.get('userNumber', None)))
+	print("OMG")
+	return {"a":"a"}
+
+@view_config(route_name='upvote', renderer='string')
+def upvote(request):
+	matchdict = request.matchdict
+	id = (int (matchdict.get('id', None)))
+	userNumber = (int (matchdict.get('userNumber', None)))
+	if not queue.UserCenter.queueList[id]["upvotedby"]:
+		print ("ADDED!")
+	else:
+		if not userNumber in queue.UserCenter.queueList[id]["upvotedby"]:
+			queue.UserCenter.queueList[id]["upvotedby"].append(userNumber)
+			queue.UserCenter.queueList[id]["upvote"] += 1
+			queue.UserCenter.queueList[id]["totalvotes"] = queue.UserCenter.queueList[id]["upvote"] - queue.UserCenter.queueList[id]["downvote"]
+			queue.UserCenter.sortList()
+	print(queue.UserCenter.queueList[id]["upvotedby"])
+	return {"a":"a"}
+
+
 @view_config(route_name='returnQueue', renderer='json')
 def returnQueue(request):
 	jsonqueue = json.dumps(queue.UserCenter.queueList)

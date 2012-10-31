@@ -203,6 +203,28 @@ ul#toprightbarlist {
 	white-space: nowrap;
 }
 
+.upvote {
+	width: 15px;
+	height: 13px;
+	overflow: hidden;
+	display: inline;
+
+}
+
+.downvote {
+	width: 15px;
+	height: 13px;
+	overflow: hidden;
+	display: inline;
+}
+
+.upCount {
+	overflow: hidden;
+	display: inline;
+	float: right;
+
+}
+
 .songName {
 	width: 70px;
 	overflow: hidden;
