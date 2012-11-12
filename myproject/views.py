@@ -2,6 +2,9 @@ from pyramid.view import view_config
 import queue
 from user import *
 import json
+import requests
+import time
+from threading import Thread
 
 userList = []
 
@@ -28,19 +31,46 @@ def downvote(request):
 @view_config(route_name='upvote', renderer='string')
 def upvote(request):
 	matchdict = request.matchdict
-	id = (int (matchdict.get('id', None)))
+	songid = (int (matchdict.get('id', None)))
 	userNumber = (int (matchdict.get('userNumber', None)))
-	if not queue.UserCenter.queueList[id]["upvotedby"]:
+	if not queue.UserCenter.queueList[songid]["upvotedby"]:
 		print ("ADDED!")
 	else:
-		if not userNumber in queue.UserCenter.queueList[id]["upvotedby"]:
-			queue.UserCenter.queueList[id]["upvotedby"].append(userNumber)
-			queue.UserCenter.queueList[id]["upvote"] += 1
-			queue.UserCenter.queueList[id]["totalvotes"] = queue.UserCenter.queueList[id]["upvote"] - queue.UserCenter.queueList[id]["downvote"]
+		if not userNumber in queue.UserCenter.queueList[songid]["upvotedby"]:
+			queue.UserCenter.queueList[songid]["upvotedby"].append(userNumber)
+			queue.UserCenter.queueList[songid]["upvote"] += 1
+			queue.UserCenter.queueList[songid]["totalvotes"] = queue.UserCenter.queueList[songid]["upvote"] - queue.UserCenter.queueList[songid]["downvote"]
 			queue.UserCenter.sortList()
-	print(queue.UserCenter.queueList[id]["upvotedby"])
+	print(queue.UserCenter.queueList[songid]["upvotedby"])
+	playSong(userNumber, songid)
 	return {"a":"a"}
 
+@view_config(route_name='nextSong', renderer='string')
+def timeSong(request):
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	print("START THREAD")
+	queue.UserCenter.queueList.pop(0)
+	if (len(queue.UserCenter.queueList) > 0):
+		playSong(0, 0)
+	return {"a":"a"}
+
+
+def playSong(userNumber, songid):
+	user = userList[userNumber]
+	playid = queue.UserCenter.queueList[songid]["id"]
+	startTime = queue.UserCenter.queueList[songid]["durationMillis"] // 1000
+	songStream = user.api.get_stream_url(playid)
+	print(songStream)
+	payload = {"stream":songStream}
+	r = requests.post('http://129.21.50.217:8082/play/', data=payload)
+	print("Start time is " + str(startTime))
+	print(r.text)
 
 @view_config(route_name='returnQueue', renderer='json')
 def returnQueue(request):

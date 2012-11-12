@@ -11,5 +11,6 @@ def main(global_config, **settings):
     config.add_route('returnQueue', '/returnqueue/{userNumber}/{queue}')
     config.add_route('upvote', 'upvote/{userNumber}/{queue}/{id}')
     config.add_route('downvote', 'downvote/{userNumber}/{queue}/{id}')
+    config.add_route('nextSong', 'nextSong/')
     config.scan()
     return config.make_wsgi_app()
