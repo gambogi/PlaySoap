@@ -1,23 +1,24 @@
+queue = "userCenter"
 function addToQueue(elem) {
-	alert (elem.id);
-	$.post('ajaxqueue/' + $('#userNumber').text() + '/' +'userCenter/'+ elem.id)
+	$.post('ajaxqueue/' + $('#userNumber').text() + '/' + queue + '/'+ elem.id)
 }
 
 function upvote(elem) {
-	alert(elem.id);
-	$.post('upvote/' + $('#userNumber').text() + '/' + 'userCenter/' + elem.id)
+	$.post('upvote/' + $('#userNumber').text() + '/' + queue + '/' + elem.id)
 
 }
 
 function downvote(elem) {
-	alert(elem.id);
-	$.post('downvote/' + $('#userNumber').text() + '/' + 'userCenter/' + elem.id)
+	$.post('downvote/' + $('#userNumber').text() + '/' + queue + '/' + elem.id)
+}
+
+function changeQueue(queueName) {
+	queue = queueName
 }
 
 function loadQueue() {
 	$.ajax({
-        url: "/returnqueue/{user}/{queue}",
-        cache: false,
+        url: "/returnqueue/0/" + queue,
         dataType: "json",
         success: function(data) {
 			$('#queue').empty('');

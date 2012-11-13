@@ -7216,3 +7216,804 @@ u2: 0
 2012-11-11 21:38:26,065 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=f70806089fa031a1&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352688517&sparams=id,itag,source,o,ip,ipbits,expire&signature=6F7D059EC6F01B9C11ED6C91C7CBE3D0C095F5F8.7A3362A2D0E9A6D548E3CDC32EBBE90DE9D06EB2&key=sj2'}
 2012-11-11 21:42:36,644 - gmusicapi.Api - DEBUG - wc_call play ()
 2012-11-11 21:42:36,908 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=8ff9bf1aefec1e56&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352688768&sparams=id,itag,source,o,ip,ipbits,expire&signature=6D60626A18730F11D056586859D57F9C3F8BBE41.5BDD5E573A813A3ED938CE2CBD83AA7DBC0E318B&key=sj2'}
+2012-11-11 21:49:08,093 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 21:49:08,444 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=611663cdd0089cf3&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352689160&sparams=id,itag,source,o,ip,ipbits,expire&signature=10A5C6D397C8491CBC66FFAF6BCB173C57C51E76.4AC882748C0C7277DA9861973423B6FEA7D419EE&key=sj2'}
+2012-11-11 21:53:28,847 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 21:53:29,090 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=bd1577576accb8b1&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352689420&sparams=id,itag,source,o,ip,ipbits,expire&signature=4141E5872F5040657BEB782C2466FE2729FF8040.63EBE69970154D4716D8E46D0CB45B2E0B5DB6F6&key=sj2'}
+2012-11-11 21:57:32,321 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 21:57:32,529 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=51da2feae90fde8d&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352689664&sparams=id,itag,source,o,ip,ipbits,expire&signature=6587C879DB10E6AAB010130802EC109E83587B78.1CD862B22A7BEEB89DB27491BEE27BA88B3BE26D&key=sj2'}
+2012-11-11 22:00:35,767 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 22:00:36,154 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=cf8d3767d7861f84&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352689847&sparams=id,itag,source,o,ip,ipbits,expire&signature=45506D1F146EA853D1B1CA774DA714478A8A1F9B.1DBE54E0349DC5768FD91F8E2EBFF85600894F8C&key=sj2'}
+2012-11-11 22:05:01,555 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 22:05:01,749 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=ead3a779056d5e9c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352690113&sparams=id,itag,source,o,ip,ipbits,expire&signature=61B1F55D90D3A068D4DD89513C580A3FB0ABC70A.7F157915C84D10D8BB26F0A8813FF432A31B82EC&key=sj2'}
+2012-11-11 22:09:39,530 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 22:09:39,855 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=4304972aba63eae0&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352690391&sparams=id,itag,source,o,ip,ipbits,expire&signature=88090EAC3FB64AA7EEA445CB6DBE31D4A7FA5736.66692E72DDADB7BACC367A4A54C90655B58994BE&key=sj2'}
+2012-11-11 22:14:39,027 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 22:14:39,253 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=96c1f534b172676d&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352690690&sparams=id,itag,source,o,ip,ipbits,expire&signature=7E33B3F2742D5EEA4C6C7C1CD37FD2D2C54C5E9A.4B7A960BB2DA6B5198E6C0AC2A692BD446583D40&key=sj2'}
+2012-11-11 22:32:11,519 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:32:56,801 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:33:28,574 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:33:28,713 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:33:28,713 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:33:28,714 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:33:30,394 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:33:30,891 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:37c025b8-1f70-43ec-b81a-efbfaacd8646',)
+2012-11-11 22:33:31,435 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:34:32,761 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:34:57,244 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:34:59,880 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:35:00,013 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:35:00,013 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:35:00,013 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:35:01,809 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:35:02,362 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:6cf8bbba-7b51-4837-8ccc-998a6acca58f',)
+2012-11-11 22:35:02,917 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:37:07,413 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:37:11,593 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:37:11,719 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:37:11,720 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:37:11,720 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:37:13,600 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:37:14,133 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:2d76ffa1-9c21-447d-9015-0b7a3ba67b08',)
+2012-11-11 22:37:14,620 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:39:12,357 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:39:17,475 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:39:17,609 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:39:17,609 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:39:17,609 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:39:19,351 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:39:19,892 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:99b50f8d-49c1-4624-84d6-8236cd560fba',)
+2012-11-11 22:39:20,399 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:41:07,499 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:42:55,480 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:45:51,981 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:46:35,714 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:46:39,007 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:46:39,143 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:46:39,143 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:46:39,144 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:46:40,959 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:46:41,572 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:6d2670fb-63bc-43c3-8bc7-bbfc9d286529',)
+2012-11-11 22:46:42,110 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:47:21,947 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:48:51,309 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:48:56,277 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:48:56,588 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:48:56,588 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:48:56,588 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:48:58,329 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:48:58,841 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:b287c42f-4966-4233-975c-8f2280c3c767',)
+2012-11-11 22:48:59,427 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:49:27,693 - gmusicapi.Api_2 - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:49:27,819 - gmusicapi.Api_2 - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:49:27,819 - gmusicapi.Api_2 - INFO - logged in
+2012-11-11 22:49:27,820 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:49:29,489 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 22:49:30,071 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:71747d34-8447-4bfb-9483-8c00c83e7997',)
+2012-11-11 22:49:30,582 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 22:50:08,609 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:50:11,852 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:50:11,992 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:50:11,992 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:50:11,992 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:50:13,594 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:50:14,154 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:22c16385-1e6e-456d-9a95-9b054536ec7f',)
+2012-11-11 22:50:14,654 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:51:31,684 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:53:44,218 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:53:50,143 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:53:50,288 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:53:50,289 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:53:50,289 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:53:52,220 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:53:52,787 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:5f37a6d0-2fad-40ac-97f9-fb61f95020c5',)
+2012-11-11 22:53:53,365 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:54:44,216 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:55:29,689 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:55:53,295 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:55:56,658 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:55:56,787 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:55:56,787 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:55:56,787 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:55:58,632 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:55:59,134 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:882f22a1-4698-42ba-8f9d-f443e7fdd3fa',)
+2012-11-11 22:55:59,725 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:57:30,569 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:57:35,172 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:57:35,301 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:57:35,301 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:57:35,301 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:57:36,906 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:57:37,485 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:643b0a76-f2c3-451a-a74e-d92c99b846a4',)
+2012-11-11 22:57:38,035 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:58:54,415 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:59:01,620 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:59:01,748 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:59:01,749 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:59:01,749 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:59:04,280 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:59:04,947 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:84166cd1-e647-4904-938e-cacbf4eb3d67',)
+2012-11-11 22:59:05,497 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:59:52,793 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 22:59:56,334 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 22:59:56,460 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 22:59:56,460 - gmusicapi.Api - INFO - logged in
+2012-11-11 22:59:56,460 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 22:59:58,173 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 22:59:58,779 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:92905cc2-8c83-444c-bcd1-f9dd9a5ed055',)
+2012-11-11 22:59:59,317 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:01:41,455 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:01:53,670 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:01:53,800 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:01:53,801 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:01:53,801 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:01:55,418 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:01:56,010 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:c7bf81c1-1832-4248-9c56-c46f3f225b01',)
+2012-11-11 23:01:56,518 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:02:30,221 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:02:36,399 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:02:36,526 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:02:36,527 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:02:36,527 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:02:38,053 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:02:38,647 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:bacedf38-58b4-425f-8d89-6f3834a49352',)
+2012-11-11 23:02:39,212 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:03:58,741 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:04:04,062 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:04:04,186 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:04:04,187 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:04:04,187 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:04:05,899 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:04:06,564 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:9720f915-ad3d-40f1-85a2-9774888a0ad4',)
+2012-11-11 23:04:07,103 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:07:34,247 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:07:40,127 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:07:40,258 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:07:40,258 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:07:40,259 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:07:41,980 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:07:42,584 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:4397fed7-64ce-4fc6-b866-aee9b1115bbe',)
+2012-11-11 23:07:43,137 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:08:12,406 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:08:12,617 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=3a90176bf228e5cc&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352693904&sparams=id,itag,source,o,ip,ipbits,expire&signature=81F6C19F0AC2D1A28E02C5B2C8FE834347AFF48.3526765A19419F5B881AF84E78B63A36ECE704E5&key=sj2'}
+2012-11-11 23:09:03,070 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:09:10,122 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:09:10,249 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:09:10,249 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:09:10,249 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:09:11,912 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:09:12,509 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:44bbd15c-a8ac-42d7-b7c9-ba5d6c9c74ac',)
+2012-11-11 23:09:13,101 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:09:24,157 - gmusicapi.Api_2 - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:09:24,286 - gmusicapi.Api_2 - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:09:24,287 - gmusicapi.Api_2 - INFO - logged in
+2012-11-11 23:09:24,287 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:09:26,044 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:09:26,642 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:cf48bfbc-83e7-4a0d-9764-5a2416ec5063',)
+2012-11-11 23:09:27,121 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:09:42,617 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:09:48,203 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:09:48,330 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:09:48,331 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:09:48,331 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:09:50,048 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:09:50,610 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:cd70ba01-6127-453b-bd2e-5b58daf81271',)
+2012-11-11 23:09:51,175 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:11:00,755 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:11:04,883 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:11:05,011 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:11:05,011 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:11:05,011 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:11:06,687 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:11:07,281 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:7701cc7d-27be-40fa-be47-ecca63cbe493',)
+2012-11-11 23:11:07,818 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:21:01,165 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:21:10,098 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:21:10,399 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:21:10,400 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:21:10,400 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:21:12,091 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:21:12,670 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:d706fd1d-df6e-4bbe-997a-f796f0973056',)
+2012-11-11 23:21:13,280 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:22:41,180 - gmusicapi.Api_2 - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:22:41,307 - gmusicapi.Api_2 - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:22:41,308 - gmusicapi.Api_2 - INFO - logged in
+2012-11-11 23:22:41,308 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:22:43,029 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:22:43,647 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:e7c3d9ad-ca20-4a1d-8386-b743e8d16b6c',)
+2012-11-11 23:22:44,145 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:22:52,252 - gmusicapi.Api_3 - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:22:52,379 - gmusicapi.Api_3 - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:22:52,379 - gmusicapi.Api_3 - INFO - logged in
+2012-11-11 23:22:52,380 - gmusicapi.Api_3 - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:22:54,070 - gmusicapi.Api_3 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:22:54,675 - gmusicapi.Api_3 - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:9b1e9b8a-269a-42da-ae2e-ef01f3ca899a',)
+2012-11-11 23:22:55,214 - gmusicapi.Api_3 - DEBUG - wc_call response <suppressed>
+2012-11-11 23:23:11,323 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:23:16,173 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:23:16,301 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:23:16,301 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:23:16,301 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:23:18,119 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:23:18,752 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:598bf9ae-84b7-413e-b518-4dae9cb81af1',)
+2012-11-11 23:23:19,291 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:23:45,169 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:23:45,485 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=77eb4e5128a55848&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352694837&sparams=id,itag,source,o,ip,ipbits,expire&signature=74186EB82BE9BD60993DB880DD12D228E38CD912.58EDDFED7730DDE6FA96684D6ED14A1E133BF466&key=sj2'}
+2012-11-11 23:24:11,783 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:24:19,659 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:24:19,785 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:24:19,786 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:24:19,786 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:24:21,528 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:24:22,097 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:76bca0b9-57b6-4e5d-b8be-e5f210994347',)
+2012-11-11 23:24:22,660 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:25:35,400 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:25:41,040 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:25:41,171 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:25:41,172 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:25:41,172 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:25:42,813 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:25:43,349 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:99f5ac22-f91e-46a1-b9e4-2b6a154512d3',)
+2012-11-11 23:25:43,885 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:26:14,029 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:26:20,924 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:26:21,049 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:26:21,049 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:26:21,049 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:26:22,599 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:26:23,180 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:41db8383-4c06-4a2b-88c6-4d5344c455c5',)
+2012-11-11 23:26:23,684 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:26:27,118 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:26:27,273 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=77eb4e5128a55848&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352694999&sparams=id,itag,source,o,ip,ipbits,expire&signature=10B73070067305F3B34D75FB9A0F9EAC93904D3E.15F91972B9BFE9F7372DAAA9ED5492AAE8CE9011&key=sj2'}
+2012-11-11 23:33:49,283 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:33:49,708 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yner---v9---lscache5.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=32b686becbe22535&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695441&sparams=id,itag,source,o,ip,ipbits,expire&signature=6AC41C37DE2A1D67083C034DF114B5AAE1AD20FF.6162E7E15616B841609992C86AB799D807E289FC&key=sj2'}
+2012-11-11 23:34:03,958 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:34:04,125 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5qlsn7s---v22---lscache8.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=95dbd605f97035f7&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695456&sparams=id,itag,source,o,ip,ipbits,expire&signature=97A1CF5BF9BA12C7C166DF3FBA351C5C06FB66DA.919CD3A0E16F82BE3D7419BFC24A2CFB757302DC&key=sj2'}
+2012-11-11 23:35:33,506 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:35:33,679 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yner---v22---lscache5.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=224c6ff232e2160c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695545&sparams=id,itag,source,o,ip,ipbits,expire&signature=7B54D058D8F6270762D623C1884C30F0853CF918.892DAEB4E85CAF25C98365C042A9A51B8E324728&key=sj2'}
+2012-11-11 23:36:16,908 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:36:17,068 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5qlsn7s---v22---lscache8.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=95dbd605f97035f7&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695589&sparams=id,itag,source,o,ip,ipbits,expire&signature=9E4CCE8DCD92AF8767212E985EA3122D1FF7EF9C.4E3E7BD40A86BC925836E083953D03C526E790AD&key=sj2'}
+2012-11-11 23:36:36,961 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:36:37,132 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yner---v17---lscache5.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=d46c5138ed73205a&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695609&sparams=id,itag,source,o,ip,ipbits,expire&signature=249334FCE9D5718555DB00C0D9C44CC4E74E0EBC.93FC1931C0E8B2CB907EA6C119C7A5F8372A0F31&key=sj2'}
+2012-11-11 23:36:53,168 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:36:56,072 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:36:56,197 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:36:56,197 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:36:56,198 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:36:58,062 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:36:58,598 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:6d5d8d40-e4e2-47fe-8c20-22d8ecada222',)
+2012-11-11 23:36:59,131 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:37:32,897 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:37:33,150 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=efffcb93c531f18c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695665&sparams=id,itag,source,o,ip,ipbits,expire&signature=47E123B76ACC5AF10E2D1E55C3FB4CB78F163F8D.695A05F9ED65F4D82B4CB6EE8528C2360E5DB3AC&key=sj2'}
+2012-11-11 23:39:15,837 - gmusicapi - INFO - !-- Starting log --!
+2012-11-11 23:39:18,397 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-11 23:39:18,530 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-11 23:39:18,530 - gmusicapi.Api - INFO - logged in
+2012-11-11 23:39:18,530 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-11 23:39:20,256 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:39:20,858 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:65555967-69bc-4c5c-93c0-8c00fc3e4433',)
+2012-11-11 23:39:21,379 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-11 23:39:29,530 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-11 23:39:29,764 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=9147e08bbab54f02&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352695781&sparams=id,itag,source,o,ip,ipbits,expire&signature=47F7C9B4DCF2EDDAF7E85278002E2AA0C0FD5B5A.3CFE9329316B1CD08AFE566650D5E82320CABB02&key=sj2'}
+2012-11-12 00:51:55,280 - gmusicapi.Api_2 - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-12 00:51:55,407 - gmusicapi.Api_2 - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-12 00:51:55,407 - gmusicapi.Api_2 - INFO - logged in
+2012-11-12 00:51:55,408 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks ()
+2012-11-12 00:51:57,152 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-12 00:51:57,791 - gmusicapi.Api_2 - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:a6f19b99-dc5a-4794-bd09-93a7063c0004',)
+2012-11-12 00:51:58,319 - gmusicapi.Api_2 - DEBUG - wc_call response <suppressed>
+2012-11-12 00:56:41,254 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 00:59:58,803 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 01:00:15,380 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 01:00:52,288 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 01:16:55,871 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 01:21:06,486 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-12 01:21:06,612 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-12 01:21:06,612 - gmusicapi.Api - INFO - logged in
+2012-11-12 01:21:06,612 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-12 01:21:08,538 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:21:09,109 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmMKSvfp0hQM/////zztQkI8+uiT/wD+//6Ynpaexc/Pz8/Pz52bzsbPy8edz8vFy8zFy8zei43FzMzPxs/Ky83NysfKzMvLycjPyf/+EOgHIQ7rvkeQ6FGzOQAAAADz6y0WSAEyDQoLCgAo24uFhvftqwI=:342407df-049c-4577-969f-d48e23f38781',)
+2012-11-12 01:21:10,735 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:21:11,320 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmMKSvfp0dwx/////zztQjTr22mD/wD+//6Ynpaexc/Pz8/Pz52bzsbPy8edz8vFy8zFy8zei43FyMvNzcfJzcvIzM7OzsnJy8nJzP/+ENAPIQ7rvkeQ6FGzOQAAAADOIy4WSAEyDQoLCgAon8ukqKzuqwI=:2aac7d86-8d68-41d1-950b-9686f98d2e6c',)
+2012-11-12 01:21:12,973 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:21:13,576 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/fp0Zex/////zztQiSW374X/wD+//6Ynpaexc/Pz8/Pz52bzsbPy8edz8vFy8zFy8zei43Fzs3MyszHy8/GzsvPzMrJx8zPz8z//hC4FyEO675HkOhRszkAAAAATmguFkgBMg0KCwoAKPqgoNLt7qsC:3f2b1e88-eb6b-4d3a-ab49-d61395291865',)
+2012-11-12 01:21:15,287 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:21:15,858 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmYKTffp0Vnq/////zztQhXcVYj/AAD//wD+//6Ynpaexc/Pz8/Pz52bzsbPy8edz8vFy8zFy8zei43FzcjNyMvJysbNysvOycrLzMrPyf/+EKAfIQ7rvkeQ6FGzOQAAAAAVpi4WSAEyDQoLCgAowLuqx6jvqwI=:b6e21e16-c831-46db-8ffa-adb974eb6afe',)
+2012-11-12 01:21:17,481 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:21:18,080 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmMKSvfogGbq/////zzs8cAcvo57/wD+//6Ynpaexc/Pz8/Pz52bzsbPy8edz8vFy8zFy8zei43FxsjOz8bGyszPzMjKzM7Hy8/PzP/+EIgnIQ7rvkeQ6FGzOQAAAAAVmX8XSAEyDQoLCgAo4bjBxv/xsAI=:5957211f-94cf-43ea-af4a-651de06bb519',)
+2012-11-12 01:21:18,758 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 01:22:31,632 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 01:22:31,860 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=657cb0624ccd0a5a&itag=25&source=skyjam&o=06893453308333424594&ip=0.0.0.0&ipbits=0&expire=1352701964&sparams=id,itag,source,o,ip,ipbits,expire&signature=3C9975A39183ABDDD44E1CCD711DA5D25962A01B.93F7DBBA74708F8A0E3ED0833FA7841897936CD9&key=sj2'}
+2012-11-12 14:47:54,620 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 14:48:18,477 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-12 14:48:18,607 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-12 14:48:18,607 - gmusicapi.Api - INFO - logged in
+2012-11-12 14:48:18,608 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-12 14:48:20,528 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:48:21,163 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:9bb076a8-4dbe-4ec4-bdb4-c75d9098dac8',)
+2012-11-12 14:48:21,650 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:48:28,362 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 14:48:28,599 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yney---v8---lscache7.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=2d371a7911aeea7d&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352750323&sparams=id,itag,source,o,ip,ipbits,expire&signature=8ECB298A02768F74B33DE8AF1A168E211DA75BD3.43FD497AC22147FB09F2179C5B9D052133C0AAC&key=sj2'}
+2012-11-12 14:49:05,474 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 14:49:41,849 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-12 14:49:41,979 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-12 14:49:41,979 - gmusicapi.Api - INFO - logged in
+2012-11-12 14:49:41,979 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-12 14:49:43,762 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:49:44,306 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:164604d9-54fd-4cf0-8e4f-a4a885e8e78b',)
+2012-11-12 14:49:44,813 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:50:00,970 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 14:50:01,126 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yney---v8---lscache7.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=2d371a7911aeea7d&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352750416&sparams=id,itag,source,o,ip,ipbits,expire&signature=15361B3E7D0AE4096E556DDDE5AE19084EB41181.7B1F02A73384B319E21CB03FD2DC195AF8687EE&key=sj2'}
+2012-11-12 14:56:47,494 - gmusicapi - INFO - !-- Starting log --!
+2012-11-12 14:56:58,123 - gmusicapi.Api - DEBUG - mm_pb_call: upload_auth(None)
+2012-11-12 14:56:58,253 - gmusicapi.Api - DEBUG - mm_pb_call response: [u0: 6
+status {
+  u0: 0
+  u1: 0
+  u2: 5
+  u3: 12000
+  u4: 0
+  u5: 16000
+}
+u1: 8
+u2: 0
+]
+2012-11-12 14:56:58,253 - gmusicapi.Api - INFO - logged in
+2012-11-12 14:56:58,254 - gmusicapi.Api - DEBUG - wc_call loadalltracks ()
+2012-11-12 14:57:00,045 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:57:00,536 - gmusicapi.Api - DEBUG - wc_call loadalltracks (u'KmQKS/foXHrJ/////zzs6S+Vk8LX/wD+//6Ynpaexc/Pz8/Pz52Zmcmdy5meyMrFy8zFy8zei43FzszHzc3LxszJysrIxszHzMfNzc7//hDoByEO675HkOhRszkAAAAANoWjF0gBMg0KCwoAKMqe7NTBtrEC:5a07f969-d111-4a32-a703-cb172c8353ce',)
+2012-11-12 14:57:01,042 - gmusicapi.Api - DEBUG - wc_call response <suppressed>
+2012-11-12 14:57:18,295 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 14:57:18,803 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=64a1317d9763f890&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352750853&sparams=id,itag,source,o,ip,ipbits,expire&signature=3DDD3189407BC559D88061F1022B58DD2CBDA6F9.19B40A8E51226032987EF333FA8E552E70156183&key=sj2'}
+2012-11-12 15:01:41,129 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:01:41,394 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=dbb3cc04e09ae657&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352751116&sparams=id,itag,source,o,ip,ipbits,expire&signature=718E6152DBFE0BC4B4848C6DE77FE7E6A5028402.346B56EEA9B959B70433A63F5B484250886BD17F&key=sj2'}
+2012-11-12 15:04:47,186 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:04:47,478 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=f411ecc66650e181&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352751302&sparams=id,itag,source,o,ip,ipbits,expire&signature=6AD0371E0050084B4F0B4DC91AEDC3EDD217D814.3F418FE88C62018361847370692876B7D4C8D606&key=sj2'}
+2012-11-12 15:09:02,091 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:09:02,406 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=df762454d4b36b3f&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352751557&sparams=id,itag,source,o,ip,ipbits,expire&signature=1CB3D1BE11E5470B314BDF98B784573A59242459.530B0E19FE0DBF7615AB2872AE6867369123E26E&key=sj2'}
+2012-11-12 15:13:19,748 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:13:19,989 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=5caefa9b937156a8&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352751814&sparams=id,itag,source,o,ip,ipbits,expire&signature=651FB340997502386467319DDCFF8D87F3AD6B03.26B6FDC873C27BAE52AC430F27F58781FD896E3E&key=sj2'}
+2012-11-12 15:18:35,287 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:18:35,485 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=f1c1c1f4ca3e54a0&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352752130&sparams=id,itag,source,o,ip,ipbits,expire&signature=176B551D4816BC4C88301363DB8D9FB748EAC6E.6CC1F83CBC57379F0F971E9C13C101718E4C9C51&key=sj2'}
+2012-11-12 15:22:28,941 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:22:30,232 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=94b3ea72d5924ef7&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352752365&sparams=id,itag,source,o,ip,ipbits,expire&signature=10227C936B1B8EC553EDA5660242BD77D813F554.460F039B54FB97ECA264F7F1D79C8C2029BCA206&key=sj2'}
+2012-11-12 15:26:39,147 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:26:39,476 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=7e2f873750c96ca3&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352752614&sparams=id,itag,source,o,ip,ipbits,expire&signature=14AF8FBAF17A046EA5A87213E0B3BE11FC269DEB.2FFFB359B82E09006007ECF293C089B08AAEBC47&key=sj2'}
+2012-11-12 15:29:10,387 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:29:10,708 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=b00a1a0313339b18&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352752765&sparams=id,itag,source,o,ip,ipbits,expire&signature=456E0CC1DFE02BA07A90258E53E62598185FE741.8CE57EA7CF7B4F0574FDE57BB19B4E2367956AB4&key=sj2'}
+2012-11-12 15:33:23,212 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:33:23,478 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=bcc9f3b6eba7fd67&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753018&sparams=id,itag,source,o,ip,ipbits,expire&signature=22D5A6484A9686EABA0738608FA7458F2A16B16D.5FD4969D2BFA6D230728BD0AC393B842073BFBA3&key=sj2'}
+2012-11-12 15:36:19,499 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:36:19,675 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=0fad393289f30de3&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753194&sparams=id,itag,source,o,ip,ipbits,expire&signature=4CB3901F23B6C492C55F8F1C4274400E48AD4E9.23D792FD486DBB9D15C31A68BA1AFDF9CBB639F6&key=sj2'}
+2012-11-12 15:40:19,490 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:40:19,758 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=7a4db606a7bfe619&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753434&sparams=id,itag,source,o,ip,ipbits,expire&signature=51BB269D44B80FCBC5B8380594E43AC5CC500B96.2F3E5C84523114C1268A1102BD390F9029DF182F&key=sj2'}
+2012-11-12 15:42:39,416 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:42:39,634 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=6b75214e0381f4a7&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753574&sparams=id,itag,source,o,ip,ipbits,expire&signature=62C212AD4565DF7755DCC4D866F1D40763D74969.4B68294B7CCEA439592083F514CB197F495072D2&key=sj2'}
+2012-11-12 15:46:05,705 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:46:06,131 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=0acc9a2b250965d6&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753781&sparams=id,itag,source,o,ip,ipbits,expire&signature=176A2A97A306F0AAC8714375DA6AB441D67596C6.3556111411FFFEF290214BF82A02EF064C86E286&key=sj2'}
+2012-11-12 15:48:38,551 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:48:38,871 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=e2f39d4f771a6f3b&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352753933&sparams=id,itag,source,o,ip,ipbits,expire&signature=7293D30EE9BEB102AA736230E7DA2480AC0645A1.71C3E753983E9FC5F92C8D91E339540319D2D0B3&key=sj2'}
+2012-11-12 15:51:42,887 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:51:43,080 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=d92565376fcfb282&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352754118&sparams=id,itag,source,o,ip,ipbits,expire&signature=32F2D07541B1ABE5BB6D95334CCC0F1B7DDF4280.847E2089D1C92B6E0FEED037F0B31E6EDA231B59&key=sj2'}
+2012-11-12 15:55:16,480 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 15:55:17,330 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=781fe49abb7929aa&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352754332&sparams=id,itag,source,o,ip,ipbits,expire&signature=742B33E0E52FD6B1FAED999C95FD6E3A8C17839D.25946D68989A5D0F2DDFE69C6B5C6C6C049AAC47&key=sj2'}
+2012-11-12 16:00:06,020 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:00:06,423 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=d1363762db6cd7c3&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352754621&sparams=id,itag,source,o,ip,ipbits,expire&signature=12AF62AE8D3CFA24870B9B69805D88AD3272F08C.6E4A1DC2325137A0F1F73E44D60D9381DD15BF9&key=sj2'}
+2012-11-12 16:05:22,961 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:05:23,321 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=e323b7a2a9aa8d05&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352754938&sparams=id,itag,source,o,ip,ipbits,expire&signature=345AF237B9E898FF2AAB2485806622DCF6356091.4D27154F9A78B99FC8F5727D22E90F117DE229B6&key=sj2'}
+2012-11-12 16:07:52,478 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:07:52,719 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=784b712e1824907d&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755087&sparams=id,itag,source,o,ip,ipbits,expire&signature=3FF622D58FAA88206E92B6582ABE285063439DE3.34CCD26102CEBD481E56480568DEF08A420D7D32&key=sj2'}
+2012-11-12 16:10:01,494 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:10:01,871 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=635d1e05f2ae8e7b&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755216&sparams=id,itag,source,o,ip,ipbits,expire&signature=5560D61B3BBD6FF7E0863BE97EAE91CFB29BC958.2AA8FCA3AEB5D2713B76E5A344681F789AF6D7E9&key=sj2'}
+2012-11-12 16:11:06,838 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:11:07,015 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=635d1e05f2ae8e7b&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755282&sparams=id,itag,source,o,ip,ipbits,expire&signature=722C4C3164FF64E45DA74F524FBD77FC9F05F8C8.9E441ECCA146E9062EC90FAD5340AAAB6B22826D&key=sj2'}
+2012-11-12 16:11:20,186 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:11:20,447 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=bfb52230861016a3&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755295&sparams=id,itag,source,o,ip,ipbits,expire&signature=736496E2BC87F3F3FA634F0C890ADB37D787C4FB.51719A1B7DF0F9367F3D65D2907C2CECBC9D0B7A&key=sj2'}
+2012-11-12 16:12:52,756 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:12:53,009 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=eb8612a01dc5136e&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755388&sparams=id,itag,source,o,ip,ipbits,expire&signature=798407871B5904AE7497518FBB43AAD823F4ABF4.30D9DA25B7B6860FCEB57651BDDE60CD95643457&key=sj2'}
+2012-11-12 16:17:03,678 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:17:03,930 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/120?id=29333029921d9e70&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755639&sparams=id,itag,source,o,ip,ipbits,expire&signature=8525D5E865371EF0AECCF2486727BEA4513A808A.5EF8399A33838BD38117EA33C2C038267D896C9B&key=sj2'}
+2012-11-12 16:22:13,767 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:22:14,351 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=1708f9ab7354646c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352755949&sparams=id,itag,source,o,ip,ipbits,expire&signature=916325AA81C1763D9D761A4FAD8997E0CF2D8A95.6DA5C107503A159BBE9028AC59C62C3898D647DF&key=sj2'}
+2012-11-12 16:26:18,431 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:26:18,629 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=0998a20620e6547c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352756193&sparams=id,itag,source,o,ip,ipbits,expire&signature=35822874C67011154E6CF2F94F0E66EB6A1C5439.5480FBFFD8954B4C942487D430E0E08531073464&key=sj2'}
+2012-11-12 16:45:52,921 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:45:53,459 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=0c5b9458cb6d5148&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757368&sparams=id,itag,source,o,ip,ipbits,expire&signature=6F2D40993AE0FE2F96E83D36233242BE54CBBDFC.67B88904A167DECB367858FECE5AD1E3EF1C424B&key=sj2'}
+2012-11-12 16:48:28,929 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:48:30,261 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=88b9011573f34e00&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757525&sparams=id,itag,source,o,ip,ipbits,expire&signature=1641055D79EB280D9AC5680FFE5C87C4988E8E09.80C0C0261408008EFE64D2357EC3DCCA66722310&key=sj2'}
+2012-11-12 16:50:13,715 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:50:13,958 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=b222c531edf9eb54&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757629&sparams=id,itag,source,o,ip,ipbits,expire&signature=3E3CF59BF748E131960636C8303797A104E3D66F.9A5D39B41BCDF0FA010C0A366AF684E5466FE140&key=sj2'}
+2012-11-12 16:52:44,921 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:52:45,144 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/119?id=6e60b814027f882e&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757780&sparams=id,itag,source,o,ip,ipbits,expire&signature=8344678FD3FD7FEF6C965863805BDAC1B625E821.8657FF7D837AE469739F3F68E88AEE3573F04F7B&key=sj2'}
+2012-11-12 16:53:33,930 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:53:34,183 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=64f96a7248dd1de6&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757829&sparams=id,itag,source,o,ip,ipbits,expire&signature=41BBA12DBEDCC2A8B03B4372EE9C1425F93BAC7C.A5C838B4CA96C25608763A24B4077B9C6053DD7&key=sj2'}
+2012-11-12 16:54:24,728 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:54:24,962 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=f03fb8730aa8c61c&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352757880&sparams=id,itag,source,o,ip,ipbits,expire&signature=51FD671C7E2637C7110FA8067F698FC7B397C703.11CAB89ED0D61815076BC041F0F3D8AFB11C0248&key=sj2'}
+2012-11-12 16:58:22,770 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 16:58:23,053 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=232dd73e6123906b&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758118&sparams=id,itag,source,o,ip,ipbits,expire&signature=450CC30B9CF6EC6634D3B7B18FD6554975579D20.8E7FCFD81A62E6AEB8F374FE8C52C11CD1E52E5F&key=sj2'}
+2012-11-12 17:00:21,240 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 17:00:21,515 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/126?id=3e45868d826410ca&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758236&sparams=id,itag,source,o,ip,ipbits,expire&signature=14E7F51E2DC1D795CC5E40130D1F91EAD7125240.22A286F5B3CF863A10A6C775FD07DF0398608E70&key=sj2'}
+2012-11-12 17:00:33,307 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 17:00:33,492 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://o-o---preferred---sn-p5q7yney---v16---lscache7.c.doc-0-0-sj.sj.googleusercontent.com/videoplayback?id=c1be89645a091c4f&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758248&sparams=id,itag,source,o,ip,ipbits,expire&signature=7ABDC38CAA8B2FF894B45E19735CBDA9F78A0BE0.1105794ACE9C1EBB672527F58F7EEB4069E25A4&key=sj2'}
+2012-11-12 17:00:41,193 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 17:00:41,473 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=db728e90ae18b8fa&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758256&sparams=id,itag,source,o,ip,ipbits,expire&signature=507FEAC14CF3B04C19E0AB8B52F6EA745489C220.5407E8B6F20433A0245B8E338E37320A5AE59DC5&key=sj2'}
+2012-11-12 17:01:32,575 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 17:01:32,918 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=9394ca81ad946909&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758308&sparams=id,itag,source,o,ip,ipbits,expire&signature=7020F50DE38A667D7E72FBA5F4F7D6155739CF28.3C5A67FD30BDD7D725F2C2A61C23F989A3517BDB&key=sj2'}
+2012-11-12 17:06:19,128 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 17:06:19,383 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=8c7e015f41485a80&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352758594&sparams=id,itag,source,o,ip,ipbits,expire&signature=9E7DBA95333C15DA3CCFFD13816687C56A7E7E4B.531FC0F04E64A98A529AF34AE3D080AD6E8BF9B4&key=sj2'}
+2012-11-12 20:27:27,257 - gmusicapi.Api - DEBUG - wc_call play ()
+2012-11-12 20:27:27,594 - gmusicapi.Api - DEBUG - wc_call response {u'url': u'http://t.doc-0-0-sj.sj.googleusercontent.com/stream/125?id=accedf4a2fd2254f&itag=25&source=skyjam&o=05566025123847629343&ip=0.0.0.0&ipbits=0&expire=1352770663&sparams=id,itag,source,o,ip,ipbits,expire&signature=8103F594836799A838C8F0D215D8BA551E590AB7.5BDF065C40544C472F992790C67932CE0A24B88E&key=sj2'}

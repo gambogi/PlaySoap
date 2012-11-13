@@ -18,8 +18,8 @@
 	<div id="logoAndQueueButtons">
 		<img src="static/logo.png"/>
 		<ul id="rightQueueButtons">
-			<li><a href="#" class="buttons">Lounge</a></li>
-			<li><a href="#" class="buttons">UserCenter</a></li>
+			<li><a href="#" class="buttons" onClick="changeQueue('lounge')">Lounge</a></li>
+			<li><a href="#" class="buttons" onClick="changeQueue('userCenter')">UserCenter</a></li>
 			<li><a href="#" class="buttons">SOAP</a></li>
 			<div class="clear"></div>
 			</ul>

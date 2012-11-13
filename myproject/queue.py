@@ -1,6 +1,7 @@
 class Queue:
-	queueList = []
+	
 	def __init__(self, queueName):
+		self.queueList = []
 		self.queueName = queueName
 		print ("queueCREATED!")
 	def getListItem(self, index):
