@@ -1,6 +1,7 @@
 queue = "userCenter"
+service = "play"
 function addToQueue(elem) {
-	$.post('ajaxqueue/' + $('#userNumber').text() + '/' + queue + '/'+ elem.id)
+	$.post('ajaxqueue/' + service + '/' + $('#userNumber').text() + '/' + queue + '/'+ elem.id)
 }
 
 function upvote(elem) {
@@ -14,6 +15,10 @@ function downvote(elem) {
 
 function changeQueue(queueName) {
 	queue = queueName
+}
+
+function changeService(serviceName) {
+	service = serviceName
 }
 
 function loadQueue() {

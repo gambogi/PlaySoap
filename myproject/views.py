@@ -20,6 +20,7 @@ def ajaxQueue(request):
 	id = (int (matchdict.get('id', None)))
 	userNumber = (int (matchdict.get('userNumber', None)))
 	Queue = matchdict.get('queue', None)
+	service = matchdict.get('service', None)
 	if (Queue == "lounge"):
 		print("ADDED TO LOUNGE FUCK YEAH")
 		print("ADDED TO LOUNGE FUCK YEAH")
@@ -29,7 +30,7 @@ def ajaxQueue(request):
 		print("ADDED TO LOUNGE FUCK YEAH")
 		print("ADDED TO LOUNGE FUCK YEAH")
 		print("ADDED TO LOUNGE FUCK YEAH")
-		queue.Lounge.addListItem(userList[userNumber].library[id])
+		queue.Lounge.addListItem(userList[userNumber].library[id], userNumber, service)
 		if (len(queue.Lounge.queueList) == 1):
 			playSong(Queue, userNumber)
 	elif (Queue == "userCenter"):
@@ -42,7 +43,7 @@ def ajaxQueue(request):
 		print("ADDED TO USERCENT")
 		print("ADDED TO USERCENT")
 		print("ADDED TO USERCENT")
-		queue.UserCenter.addListItem(userList[userNumber].library[id])
+		queue.UserCenter.addListItem(userList[userNumber].library[id], userNumber, service)
 		if (len(queue.UserCenter.queueList) == 1):
 			print("FUCK")
 			print("FUCK")
@@ -95,18 +96,20 @@ def upvote(request):
 def timeSong(request):
 	matchdict = request.matchdict
 	id = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
+	#userNumber = (int (matchdict.get('userNumber', None)))
 	Queue = matchdict.get('queue', None)
 	if (Queue == "lounge"):
 		print("lounge")
 		queue.Lounge.queueList.pop(0)
 		if (len(queue.Lounge.queueList) > 0):
-			playSong(Queue,0)
+			userNumber = queue.Lounge.queueList[0]["uploadedby"]
+			playSong(Queue, userNumber)
 	elif (Queue == "userCenter"):
 		print ("uc")
 		queue.UserCenter.queueList.pop(0)
 		if (len(queue.UserCenter.queueList) > 0):
-			playSong(Queue, 0)
+			userNumber = queue.UserCenter.queueList[0]["uploadedby"]
+			playSong(Queue, userNumber)
 	print("START THREAD")
 	print("START THREAD")
 	print("START THREAD")

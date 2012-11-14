@@ -6,9 +6,11 @@ class Queue:
 		print ("queueCREATED!")
 	def getListItem(self, index):
 		return self.queueList[index]
-	def addListItem(self, item):
+	def addListItem(self, item, uploadedby, service):
+		item["uploadedby"] = uploadedby
 		item["upvote"] = 0
 		item["downvote"] = 0
+		item["service"] = service
 		upvote = [999]
 		downvote = [999]
 		item["upvotedby"] = upvote

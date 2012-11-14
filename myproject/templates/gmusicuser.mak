@@ -5,8 +5,8 @@
 <body>
 	<div id="topGoogleBar">
 			<ul id="topleftbarlist">
-				<li>Play</li>
-				<li>Spotify</li>
+				<li onClick="changeService('play')">Play</li>
+				<li onClick="changeService('spotify')">Spotify</li>
 				<li>GS</li>
 			</ul>
 			<ul id="toprightbarlist">
