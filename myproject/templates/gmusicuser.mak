@@ -10,8 +10,8 @@
 				<li>GS</li>
 			</ul>
 			<ul id="toprightbarlist">
-				<li id="username">${username}</li>
-				<li id="userNumber">${userNumber}</li>
+				<li id="username">NOTLOGGEDIN</li>
+				<li id="userNumber">NOTLOGGEDIN</li>
 				<li>Logout</li>
 			</ul>
 	</div>
@@ -38,18 +38,19 @@
 	</div>
 	<div id="rightSongList">
 		<table id="song-headers">
-			<tr>
-				<th>NAME</th>
-				<th>ARTIST</th>
-				<th>ALBUM</th>
-			</tr>
-			%  for idx,item in enumerate(items):
-			<tr id=${idx} onClick="addToQueue(this)" class="Songs">		
-					<td>${item["title"]}</td>
-					<td>${item["artist"]}</td>
-					<td>${item["album"]}</td>
-			</tr>
-			%endfor
+			<div id ="loginDIV">
+			<form  action="" id="loginform">
+				<fieldset>
+    			<div>
+      				<input type="text" name="username" id="username"/>
+    			</div>
+    			<div>
+      				<input type="password" name="password" id="password"/>
+    			</div>
+   				<input type="button" value="Submit" id="submitForm" onClick="login()" />
+   				</fieldset>
+  			</form>
+  		</div>
 		</table>
 		</div>
 	</div>

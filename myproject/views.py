@@ -8,11 +8,32 @@ from threading import Thread
 
 userList = []
 
-@view_config(route_name='home', renderer='loginpage.mak')
-def my_view(request):
-	for i in request.headers:
-		print(i)
-	return {"a":"a"}
+# @view_config(route_name='home', renderer='loginpage.mak')
+# def my_view(request):
+# 	for i in request.headers:
+# 		print(i)
+# 	return {"a":"a"}
+
+@view_config(route_name='login', renderer='json')
+def login(request):
+	username = request.params['username']
+	password = request.params['password']
+	tempuser = User(username,password)
+	userList.append(tempuser)
+	userNumber = userList.index(tempuser)
+	return {'username' : username, 'userNumber' : userNumber}
+
+@view_config(route_name='returnLibrary', renderer='json')
+def libraryUpdate(request):
+	matchdict = request.matchdict
+	id = (int (matchdict.get('id', None)))
+	userNumber = (int (matchdict.get('userNumber', None)))
+	Queue = matchdict.get('queue', None)
+	service = matchdict.get('service', None)
+	if (service == "play"):
+		return {"library":userList[userNumber].library}
+	elif (service == "spotify"):
+		pass
 
 @view_config(route_name='addToAjaxQueue', renderer='string')
 def ajaxQueue(request):
@@ -151,11 +172,6 @@ def returnQueue(request):
 	elif (Queue == "userCenter"):
 		return {"queue":queue.UserCenter.queueList}
 
-@view_config(route_name='login', renderer = 'gmusicuser.mak')
+@view_config(route_name='home', renderer = 'gmusicuser.mak')
 def myview(request):
-	firstname = request.params['username']
-	lastname = request.params['password']
-	tempuser = User(firstname,lastname)
-	userList.append(tempuser)
-	userNumber = userList.index(tempuser)
-	return {'items':userList[userNumber].library, 'username' : firstname, 'userNumber' : userNumber}
+	return {'a':'a'}

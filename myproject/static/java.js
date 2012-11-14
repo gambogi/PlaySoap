@@ -17,8 +17,45 @@ function changeQueue(queueName) {
 	queue = queueName
 }
 
+function login() {
+  // $('#loginform').ajaxForm({
+  //       url : '/login',
+  //       dataType : 'json',
+  //       success : function (response) {
+  //           alert("The server says: " + response);
+  //       }
+  //   });
+	var username = $("input#username").val();
+	var password = $("input#password").val();   
+	var dataString = 'username=' + username + '&password=' + password; 
+		  $.ajax({
+    		type: "POST",
+    		url: "/login",
+    		data: dataString,
+    		success: function(data) {
+    			$('#loginDIV').empty('');
+    			console.log(data)
+    			$('#userNumber').text(data.userNumber)
+      			changeService("play");
+    		}
+  		});
+}
+
 function changeService(serviceName) {
 	service = serviceName
+	$.ajax({
+        url: "/returnLibrary/" + service + "/" + $('#userNumber').text() + "/" + queue + "/" + "0",
+        dataType: "json",
+        success: function(data) {
+			$('#song-headers').empty('');
+			$('#song-headers').append('<tr><th>NAME</th><th>ARTIST</th><th>ALBUM</th></tr>')
+			for (i = 0; i < data.library.length; i++) {
+				console.log(data.library[0].title);
+				$('#song-headers').append('<tr id="' + i + '" ' + 'onClick="addToQueue(this)" class="Songs"><td>' + data.library[i].title + '</td><td>' + data.library[i].artist + '</td><td>' + data.library[i].album + "</td></tr>");
+			}
+		}
+	});
+
 }
 
 function loadQueue() {
