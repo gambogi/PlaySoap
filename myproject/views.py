@@ -23,6 +23,17 @@ def login(request):
 	userNumber = userList.index(tempuser)
 	return {'username' : username, 'userNumber' : userNumber}
 
+@view_config(route_name='searchSpotify', renderer='json')
+def searchSpotify(request):
+	matchdict = request.matchdict
+	id = (int (matchdict.get('id', None)))
+	userNumber = (int (matchdict.get('userNumber', None)))
+	Queue = matchdict.get('queue', None)
+	song = matchdict.get('song', None)
+	print(song)
+	print(song)
+	print(song)
+
 @view_config(route_name='returnLibrary', renderer='json')
 def libraryUpdate(request):
 	matchdict = request.matchdict
@@ -43,38 +54,12 @@ def ajaxQueue(request):
 	Queue = matchdict.get('queue', None)
 	service = matchdict.get('service', None)
 	if (Queue == "lounge"):
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
-		print("ADDED TO LOUNGE FUCK YEAH")
 		queue.Lounge.addListItem(userList[userNumber].library[id], userNumber, service)
 		if (len(queue.Lounge.queueList) == 1):
 			playSong(Queue, userNumber)
 	elif (Queue == "userCenter"):
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
-		print("ADDED TO USERCENT")
 		queue.UserCenter.addListItem(userList[userNumber].library[id], userNumber, service)
 		if (len(queue.UserCenter.queueList) == 1):
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
-			print("FUCK")
 			playSong(Queue, userNumber)
 	return {"a":"a"}
 
@@ -150,7 +135,7 @@ def playSong(Queue, userNumber):
 		songStream = user.api.get_stream_url(playid)
 		print(songStream)
 		payload = {"stream":songStream}
-		r = requests.post('http://129.21.138.77:8082/play/', data=payload)
+		r = requests.post('http://129.21.50.93:8081/play/', data=payload)
 		print(r.text)
 	elif (Queue == "userCenter"):
 		user = userList[userNumber]

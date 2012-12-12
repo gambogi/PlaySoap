@@ -18,13 +18,6 @@ function changeQueue(queueName) {
 }
 
 function login() {
-  // $('#loginform').ajaxForm({
-  //       url : '/login',
-  //       dataType : 'json',
-  //       success : function (response) {
-  //           alert("The server says: " + response);
-  //       }
-  //   });
 	var username = $("input#username").val();
 	var password = $("input#password").val();   
 	var dataString = 'username=' + username + '&password=' + password; 
@@ -43,7 +36,8 @@ function login() {
 
 function changeService(serviceName) {
 	service = serviceName
-	$.ajax({
+	if (service == "play") {
+		$.ajax({
         url: "/returnLibrary/" + service + "/" + $('#userNumber').text() + "/" + queue + "/" + "0",
         dataType: "json",
         success: function(data) {
@@ -55,7 +49,29 @@ function changeService(serviceName) {
 			}
 		}
 	});
+	}
+	else {
+		$('#loginDIV').empty('');
+		$('#song-headers').empty('');
+		$('#song-headers').append('<div id ="search"><form action="" id="searchform"><input type="text" name ="searchparams" id="searchparams" /><input type="button" value="Submit" id="submitSearch" onClick="searchSpotify()" /></form></div>')
+	}
+}
 
+function searchSpotify() {
+		var searchparams = $("input#searchparams").val();
+		$.ajax({
+        url: "/searchSpotify/" +  searchparams + "/" + "0" + "/" + queue + "/" + "0",
+        dataType: "json",
+        success: function(data) {
+			$('#song-headers').empty('');
+			promp('Fuck.');
+			$('#song-headers').append('<tr><th>NAME</th><th>ARTIST</th><th>ALBUM</th></tr>')
+			for (i = 0; i < data.library.length; i++) {
+				console.log(data.library[0].title);
+				$('#song-headers').append('<tr id="' + i + '" ' + 'onClick="addToQueue(this)" class="Songs"><td>' + data.library[i].title + '</td><td>' + data.library[i].artist + '</td><td>' + data.library[i].album + "</td></tr>");
+			}
+		}
+	});
 }
 
 function loadQueue() {

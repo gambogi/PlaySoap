@@ -13,5 +13,6 @@ def main(global_config, **settings):
     config.add_route('upvote', 'upvote/{userNumber}/{queue}/{id}')
     config.add_route('downvote', 'downvote/{userNumber}/{queue}/{id}')
     config.add_route('nextSong', 'nextSong/{userNumber}/{queue}/{id}')
+    config.add_route('searchSpotify', '/searchSpotify/{song}/{userNumber}/{queue}/{id}')
     config.scan()
     return config.make_wsgi_app()
