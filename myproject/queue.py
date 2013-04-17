@@ -1,11 +1,11 @@
+from views import playsong
+
 class Queue:
 	
-	def __init__(self, queueName):
+	def __init__(self, queueName, ipAddress):
 		self.queueList = []
 		self.queueName = queueName
-		print ("queueCREATED!")
-	def getListItem(self, index):
-		return self.queueList[index]
+		self.ipAddress = ipAddress
 	def addListItem(self, item, uploadedby, service):
 		item["uploadedby"] = uploadedby
 		item["upvote"] = 0
@@ -17,17 +17,12 @@ class Queue:
 		item["downvotedby"] = downvote
 		item["totalvotes"] = 0
 		self.queueList.append(item)
-	def upvoteItem(self, index, amount):
-		pass
-	def downvoteItem(self, index, amount):
-		pass
-	def getList(self):
-		pass
-	def sortList(self):
-		sorted(self.queueList,key = self.sort_key)
-		print (self.queueList)
-	def sort_key(self, row):
-		return row["totalvotes"]
+		print("SHIT SHIT SHIT GREAT GREAT GREAT")
+		if(len(self.queueList) == 1):
+			print("SHIT SHIT SHIT GREAT GREAT GREAT")
+			playsong(self.queueName)
 
-UserCenter = Queue("UserCenter")
-Lounge = Queue("Lounge")
+
+queueList = dict()
+queueList["southside"] = Queue("southside", "http://129.21.50.61:8082/play/")
+queueList["northside"] = Queue("northside", "http://129.21.49.166:8082/play/")

@@ -1,7 +1,7 @@
-queue = "userCenter"
+queue = "northside"
 service = "play"
 function addToQueue(elem) {
-	$.post('ajaxqueue/' + service + '/' + $('#userNumber').text() + '/' + queue + '/'+ elem.id)
+	$.post('ajaxqueue/' + service + '/' + queue + '/'+ elem.id)
 }
 
 function upvote(elem) {
@@ -14,7 +14,7 @@ function downvote(elem) {
 }
 
 function changeQueue(queueName) {
-	queue = queueName
+	queue = queueName;
 }
 
 function login() {
@@ -38,7 +38,7 @@ function changeService(serviceName) {
 	service = serviceName
 	if (service == "play") {
 		$.ajax({
-        url: "/returnLibrary/" + service + "/" + $('#userNumber').text() + "/" + queue + "/" + "0",
+        url: "/returnLibrary/" + service + "/" + queue + "/" + "0",
         dataType: "json",
         success: function(data) {
 			$('#song-headers').empty('');
@@ -53,18 +53,11 @@ function changeService(serviceName) {
 	else {
 		$('#loginDIV').empty('');
 		$('#song-headers').empty('');
-		$('#song-headers').append('<div id ="search"><form action="" id="searchform"><input type="text" name ="searchparams" id="searchparams" /><input type="button" value="Submit" id="submitSearch" onClick="searchSpotify()" /></form></div>')
-	}
-}
-
-function searchSpotify() {
-		var searchparams = $("input#searchparams").val();
 		$.ajax({
-        url: "/searchSpotify/" +  searchparams + "/" + "0" + "/" + queue + "/" + "0",
+        url: "/returnLibrary/" + service + "/" + queue + "/" + "0",
         dataType: "json",
         success: function(data) {
 			$('#song-headers').empty('');
-			promp('Fuck.');
 			$('#song-headers').append('<tr><th>NAME</th><th>ARTIST</th><th>ALBUM</th></tr>')
 			for (i = 0; i < data.library.length; i++) {
 				console.log(data.library[0].title);
@@ -72,7 +65,9 @@ function searchSpotify() {
 			}
 		}
 	});
+	}
 }
+
 
 function loadQueue() {
 	$.ajax({

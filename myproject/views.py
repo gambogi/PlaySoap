@@ -1,121 +1,100 @@
 from pyramid.view import view_config
-import queue
 from user import *
-import json
+import os
+from mutagen import File
+import queue
 import requests
-import time
-from threading import Thread
 
-userList = []
-
-# @view_config(route_name='home', renderer='loginpage.mak')
-# def my_view(request):
-# 	for i in request.headers:
-# 		print(i)
-# 	return {"a":"a"}
-
+userList = dict()
+serviceList = dict()
+#penisNIS
 @view_config(route_name='login', renderer='json')
 def login(request):
+	cshUserName = request.headers["X-Webauth-User"]
 	username = request.params['username']
 	password = request.params['password']
-	tempuser = User(username,password)
-	userList.append(tempuser)
-	userNumber = userList.index(tempuser)
-	return {'username' : username, 'userNumber' : userNumber}
-
-@view_config(route_name='searchSpotify', renderer='json')
-def searchSpotify(request):
-	matchdict = request.matchdict
-	id = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
-	song = matchdict.get('song', None)
-	print(song)
-	print(song)
-	print(song)
+	tempUser = userList[cshUserName]
+	tempUser.playLogin(username,password)
+	return {'username' : username, 'userNumber' : 0}
 
 @view_config(route_name='returnLibrary', renderer='json')
 def libraryUpdate(request):
+	cshUserName = request.headers["X-Webauth-User"]
+	tempUser = userList[cshUserName]
 	matchdict = request.matchdict
-	id = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
+	queue = matchdict.get('queue', None)
 	service = matchdict.get('service', None)
 	if (service == "play"):
-		return {"library":userList[userNumber].library}
-	elif (service == "spotify"):
-		pass
+		return {"library":userList[cshUserName].playlibrary}
+	elif (service == "hactar"):
+		fileList = []
+		rootdir="/home/jeid/hactar" + tempUser.cshHomeDirectory
+		fileList = unix_find(rootdir)
+		for songFile in fileList:
+			song = File(songFile, easy=True)
+			print song
+			songDict = dict()
+			songDict["album"] = song["album"][0]
+			songDict["title"] = song["title"][0]
+			songDict["artist"] = song["artist"][0]
+			songDict["fileLocation"] = songFile
+			tempUser.cshlibrary.append(songDict)
+		return{"library":tempUser.cshlibrary}
 
 @view_config(route_name='addToAjaxQueue', renderer='string')
 def ajaxQueue(request):
 	matchdict = request.matchdict
-	id = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
+	cshUserName = request.headers["X-Webauth-User"]
+	queueToAdd = matchdict.get('queue', None)
 	service = matchdict.get('service', None)
-	if (Queue == "lounge"):
-		queue.Lounge.addListItem(userList[userNumber].library[id], userNumber, service)
-		if (len(queue.Lounge.queueList) == 1):
-			playSong(Queue, userNumber)
-	elif (Queue == "userCenter"):
-		queue.UserCenter.addListItem(userList[userNumber].library[id], userNumber, service)
-		if (len(queue.UserCenter.queueList) == 1):
-			playSong(Queue, userNumber)
-	return {"a":"a"}
-
-@view_config(route_name='downvote', renderer='string')
-def downvote(request):
-	matchdict = request.matchdict
 	id = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
+	# if (Queue == "lounge"):
+	# 	queue.Lounge.addListItem(userList[userNumber].library[id], userNumber, service)
+	# 	if (len(queue.Lounge.queueList) == 1):
+	# 		playSong(Queue, userNumber)
+	# elif (Queue == "userCenter"):
+	# 	queue.UserCenter.addListItem(userList[userNumber].library[id], userNumber, service)
+	# 	if (len(queue.UserCenter.queueList) == 1):
+	# 		playSong(Queue, userNumber)
+	if (service == "play"):
+		queueBeingAdded = queue.queueList[queueToAdd]
+		queueBeingAdded.addListItem(userList[cshUserName].playlibrary[id], cshUserName, service)
+	elif (service == "hactar"):
+		queueBeingAdded = queue.queueList[queueToAdd]
+		queueBeingAdded.addListItem(userList[cshUserName].cshlibrary[id], cshUserName, service)
 	return {"a":"a"}
 
-@view_config(route_name='upvote', renderer='string')
-def upvote(request):
-	matchdict = request.matchdict
-	songid = (int (matchdict.get('id', None)))
-	userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
-	if (Queue == "lounge"):
-		if not queue.Lounge.queueList[songid]["upvotedby"]:
-			print ("ADDED!")
-		else:
-			if not userNumber in queue.Lounge.queueList[songid]["upvotedby"]:
-				queue.Lounge.queueList[songid]["upvotedby"].append(userNumber)
-				queue.Lounge.queueList[songid]["upvote"] += 1
-				queue.Lounge.queueList[songid]["totalvotes"] = queue.Lounge.queueList[songid]["upvote"] - queue.Lounge.queueList[songid]["downvote"]
-				queue.Lounge.sortList()
-		print(queue.Lounge.queueList[songid]["upvotedby"])		
-	elif (Queue == "userCenter"):
-		if not queue.UserCenter.queueList[songid]["upvotedby"]:
-			print ("ADDED!")
-		else:
-			if not userNumber in queue.UserCenter.queueList[songid]["upvotedby"]:
-				queue.UserCenter.queueList[songid]["upvotedby"].append(userNumber)
-				queue.UserCenter.queueList[songid]["upvote"] += 1
-				queue.UserCenter.queueList[songid]["totalvotes"] = queue.UserCenter.queueList[songid]["upvote"] - queue.UserCenter.queueList[songid]["downvote"]
-				queue.UserCenter.sortList()
-		print(queue.UserCenter.queueList[songid]["upvotedby"])	
-	return {"a":"a"}
+def playsong(queueName):
+	#have to work on pop.
+	queueToPop = queue.queueList[queueName]
+	queueSongList = queueToPop.queueList
+	service = queueSongList[0]["service"]
+	uploadedBy = queueSongList[0]["uploadedby"]
+	if (service == "play"):
+		songStream = userList[uploadedBy].api.get_stream_url(queueSongList[0]["id"])
+		payload = {"stream":songStream}
+		r=requests.post(queueToPop.ipAddress, data=payload)
+		print(r.text)
+		# print(songStream)
+		# payload = {"stream":songStream}
+		# r = requests.post('http://129.21.50.27:8081/play/', data=payload)
+		# print(r.text)
+	elif (service == "hactar"):
+		print(uploadedBy)
+		songStream = queueSongList[0]["fileLocation"]
+		print(songStream)
+		payload = {"stream":songStream}
+		r=requests.post(queueToPop.ipAddress, data=payload)
+		print(r.text)
 
 @view_config(route_name='nextSong', renderer='string')
 def timeSong(request):
 	matchdict = request.matchdict
-	id = (int (matchdict.get('id', None)))
-	#userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
-	if (Queue == "lounge"):
-		print("lounge")
-		queue.Lounge.queueList.pop(0)
-		if (len(queue.Lounge.queueList) > 0):
-			userNumber = queue.Lounge.queueList[0]["uploadedby"]
-			playSong(Queue, userNumber)
-	elif (Queue == "userCenter"):
-		print ("uc")
-		queue.UserCenter.queueList.pop(0)
-		if (len(queue.UserCenter.queueList) > 0):
-			userNumber = queue.UserCenter.queueList[0]["uploadedby"]
-			playSong(Queue, userNumber)
+	queueToPop = matchdict.get('queue', None)
+	queueDictPop = queue.queueList[queueToPop]
+	queueSongList = queueDictPop.queueList
+	queueSongList.pop(0)
+	playsong(queueToPop)
 	print("START THREAD")
 	print("START THREAD")
 	print("START THREAD")
@@ -127,36 +106,32 @@ def timeSong(request):
 	return {"a":"a"}
 
 
-def playSong(Queue, userNumber):
-	if (Queue == "lounge"):
-		user = userList[userNumber]
-		playid = queue.Lounge.queueList[0]["id"]
-		startTime = queue.Lounge.queueList[0]["durationMillis"] // 1000
-		songStream = user.api.get_stream_url(playid)
-		print(songStream)
-		payload = {"stream":songStream}
-		r = requests.post('http://129.21.50.93:8081/play/', data=payload)
-		print(r.text)
-	elif (Queue == "userCenter"):
-		user = userList[userNumber]
-		playid = queue.UserCenter.queueList[0]["id"]
-		startTime = queue.UserCenter.queueList[0]["durationMillis"] // 1000
-		songStream = user.api.get_stream_url(playid)
-		print(songStream)
-		payload = {"stream":songStream}
-		r = requests.post('http://129.21.50.217:8081/play/', data=payload)
-		print(r.text)
-
 @view_config(route_name='returnQueue', renderer='json')
 def returnQueue(request):
 	matchdict = request.matchdict
-	userNumber = (int (matchdict.get('userNumber', None)))
-	Queue = matchdict.get('queue', None)
-	if (Queue == "lounge"):
-		return {"queue":queue.Lounge.queueList}
-	elif (Queue == "userCenter"):
-		return {"queue":queue.UserCenter.queueList}
+	queueToReturn = matchdict.get('queue', None)
+	return {"queue":queue.queueList[queueToReturn].queueList}
 
-@view_config(route_name='home', renderer = 'gmusicuser.mak')
-def myview(request):
+def unix_find(pathin):
+	"""Return results similar to the Unix find command run without options
+	i.e. traverse a directory tree and return all the file paths
+	"""
+	fileList = []
+	for r,d,f in os.walk(pathin):
+		for files in f:
+			if files.endswith('.mp3'):
+				fileList.append(os.path.join(r,files))
+			elif files.endswith('.m4a'):
+				fileList.append(os.path.join(r,files))
+			elif files.endswith('.flac'):
+				fileList.append(os.path.join(r,files))
+
+	return fileList
+
+@view_config(route_name='home', renderer='home.mak')
+def my_view(request):
+	cshUserName = request.headers["X-Webauth-User"]
+	cshHomeDirectory = request.headers["X-Webauth-Ldap-Homedirectory"]
+	tempUser = User(cshUserName, cshHomeDirectory)
+	userList[cshUserName] = tempUser
 	return {'a':'a'}
