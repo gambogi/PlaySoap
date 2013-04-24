@@ -17,9 +17,7 @@ class Queue:
 		item["downvotedby"] = downvote
 		item["totalvotes"] = 0
 		self.queueList.append(item)
-		print("SHIT SHIT SHIT GREAT GREAT GREAT")
 		if(len(self.queueList) == 1):
-			print("SHIT SHIT SHIT GREAT GREAT GREAT")
 			playsong(self.queueName)
 
 
