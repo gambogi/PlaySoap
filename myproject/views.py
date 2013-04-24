@@ -48,15 +48,6 @@ def ajaxQueue(request):
 	queueToAdd = matchdict.get('queue', None)
 	service = matchdict.get('service', None)
 	id = (int (matchdict.get('id', None)))
-	# if (Queue == "lounge"):
-	# 	queue.Lounge.addListItem(userList[userNumber].library[id], userNumber, service)
-	# 	if (len(queue.Lounge.queueList) == 1):
-	# 		playSong(Queue, userNumber)
-	# elif (Queue == "userCenter"):
-	# 	queue.UserCenter.addListItem(userList[userNumber].library[id], userNumber, service)
-	# 	if (len(queue.UserCenter.queueList) == 1):
-	# 		playSong(Queue, userNumber)
-	if (service == "play"):
 		queueBeingAdded = queue.queueList[queueToAdd]
 		queueBeingAdded.addListItem(userList[cshUserName].playlibrary[id], cshUserName, service)
 	elif (service == "hactar"):
