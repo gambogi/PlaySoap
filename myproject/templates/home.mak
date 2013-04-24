@@ -38,13 +38,14 @@
 	<div id="rightSongList">
 		<table id="song-headers">
 			<div id ="loginDIV">
+				<strong>NOTE:</strong> If using a google account with two-factor authentication, you must create an application password for soap. This is the <strong>only</strong> known way you can login. 
 			<form  action="" id="loginform">
 				<fieldset>
     			<div>
-      				<input type="text" name="username" id="username"/>
+      				Username: <input type="text" name="username" id="username"/>
     			</div>
     			<div>
-      				<input type="password" name="password" id="password"/>
+      				Password: <input type="password" name="password" id="password"/>
     			</div>
    				<input type="button" value="Submit" id="submitForm" onClick="login()" />
    				</fieldset>
