@@ -48,6 +48,7 @@ def ajaxQueue(request):
 	queueToAdd = matchdict.get('queue', None)
 	service = matchdict.get('service', None)
 	id = (int (matchdict.get('id', None)))
+	if (service == "play"):
 		queueBeingAdded = queue.queueList[queueToAdd]
 		queueBeingAdded.addListItem(userList[cshUserName].playlibrary[id], cshUserName, service)
 	elif (service == "hactar"):

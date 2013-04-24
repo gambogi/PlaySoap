@@ -1,4 +1,4 @@
-from gmusicapi.api import Api
+from gmusicapi import Webclient
 
 class User:
 	def __init__(self, cshUsername, cshHomeDirectory):
@@ -7,6 +7,6 @@ class User:
 		self.cshHomeDirectory = cshHomeDirectory
 
 	def playLogin(self, username, password):
-		self.api = Api()
+		self.api = Webclient()
 		self.api.login(username, password)
 		self.playlibrary = self.api.get_all_songs()
