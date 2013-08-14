@@ -88,13 +88,6 @@ def timeSong(request):
 	queueSongList.pop(0)
 	playsong(queueToPop)
 	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
-	print("START THREAD")
 	return {"a":"a"}
 
 
